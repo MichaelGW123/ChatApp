@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package chatapp;
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -20,10 +15,6 @@ import java.util.ArrayList;
 import java.io.IOException;
 import java.util.Objects;
 
-/**
- *
- * @author Travis
- */
 public class App {
     protected ArrayList<Peer> connections;
     private Integer my_port;
